@@ -181,7 +181,7 @@ INSERT INTO Video_stores VALUES(7,’Movie Madness 7’, ‘4320 SE Belmont St, 
 
 States’, 1 503-234-4363,’store7 @ moviemadness.com’);
 
-INSERT INTO Video_stores VALUES(2,’Movie Madness 2’, ‘513 1st Ave N, Lewistown, MT 59457, United States’, 1 406-535-2100,’store7@moviemadness.com’);
+INSERT INTO Video_stores VALUES(2,’Movie Madness 2’, ‘513 1st Ave N, Lewistown, MT 59457, United States’, 1 406-535-2100,’store7 @ moviemadness.com’);
 
 
 
