@@ -142,19 +142,19 @@ Transaction_type_code number(1));
 <h3> Insert Into Statements</h3>
 I Inserted 3 values for all tables.
 <br>
-INSERT INTO Movies VALUES (1, ‘box damaged,’Drama’,’Blu-ray’,3,’Joker’,2019,’ In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker’,25,’both’,12,3.99);
+INSERT INTO Movies VALUES (1, ‘box damaged,'Drama’,'Blu-ray’,3,'Joker’,2019,' In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker’,25,'both’,12,3.99);
 
-INSERT INTO Movies VALUES (2, ‘solid’,’Comedy’,’Blu-ray’,7,’ Great Dictator’,1940,’ The Great Dictator is a 1940 American political satire comedy-drama film written, directed, produced, scored by, and starring British comedian Charlie Chaplin’,12,’both’,17,6.99);
+INSERT INTO Movies VALUES (2, ‘solid’,'Comedy’,'Blu-ray’,7,' Great Dictator’,1940,' The Great Dictator is a 1940 American political satire comedy-drama film written, directed, produced, scored by, and starring British comedian Charlie Chaplin’,12,'both’,17,6.99);
 
-INSERT INTO Movies VALUES (3, ‘damaged’,’Sci-fi’,’Blu-ray’,2,’Transdence’,2014,’ Synopsis. Dr. Will Caster (Johnny Depp) is a scientist who researches the nature of sentience, including artificial intelligence. He and his team work to create a sentient computer; he predicts that such a computer will create a technological singularity, or in his words Transcendence ’,37,’sale’,null,4.99);
+INSERT INTO Movies VALUES (3, ‘damaged’,'Sci-fi’,'Blu-ray’,2,'Transdence’,2014,' Synopsis. Dr. Will Caster (Johnny Depp) is a scientist who researches the nature of sentience, including artificial intelligence. He and his team work to create a sentient computer; he predicts that such a computer will create a technological singularity, or in his words Transcendence ’,37,'sale’,null,4.99);
 
 
 
-INSERT INTO Condition_codes VALUES(‘box damaged’,’box is damaged but cd is fine’);
+INSERT INTO Condition_codes VALUES(‘box damaged’,'box is damaged but cd is fine’);
 
-INSERT INTO Condition_codes VALUES(‘damaged’,’cd has skeches’ );
+INSERT INTO Condition_codes VALUES(‘damaged’,'cd has skeches’ );
 
-INSERT INTO Condition_codes VALUES(‘solid’,’everything is fine cd and box’);
+INSERT INTO Condition_codes VALUES(‘solid’,'everything is fine cd and box’);
  
 
 INSERT INTO Genre_types VALUES(‘Comedy’, ‘A comedy film is a genre of film in which the main emphasis is on humor.’);
@@ -167,7 +167,7 @@ INSERT INTO Genre_types VALUES(‘Sci-fi’, ‘Science fiction film is a genre 
 
 INSERT INTO Format_Types Values(‘Blu-ray’, ‘digital optical disc data storage format’);
 
-INSERT INTO Format_Types Values(‘CD,’ ‘ digital optical disc data storage format that was co-developed by Philips and Sony and released in 1982’);
+INSERT INTO Format_Types Values(‘CD’, ‘ digital optical disc data storage format that was co-developed by Philips and Sony and released in 1982’);
 
 INSERT INTO Format_Types Values(‘DVD’, ‘Stands for "Digital Versatile Disc. A dvd is a type of optical media used for storing digital data’);
 
@@ -175,35 +175,35 @@ INSERT INTO Format_Types Values(‘DVD’, ‘Stands for "Digital Versatile Disc
 
 INSERT INTO Video_stores VALUES(3,’Movie Madness 3’, ‘11280 Santa Monica Blvd, Los Angeles, CA 90025,
 
-United States’, 1 310-312-8836,’store3@moviemadness.com’);
+United States’, 1 310-312-8836,’store3 @ moviemadness.com’);
 
 INSERT INTO Video_stores VALUES(7,’Movie Madness 7’, ‘4320 SE Belmont St, Portland, OR 97215, United
 
-States’, 1 503-234-4363,’store7@moviemadness.com’);
+States’, 1 503-234-4363,’store7 @ moviemadness.com’);
 
 INSERT INTO Video_stores VALUES(2,’Movie Madness 2’, ‘513 1st Ave N, Lewistown, MT 59457, United States’, 1 406-535-2100,’store7@moviemadness.com’);
 
 
 
-INSERT INTO Customer_rentals VALUES(12458 , 3456987,1, ’rented’, TO_DATE ('05/19/2005', 'mm/dd/yyyy'), TO_DATE ('05/29/1997', 'mm/dd/yyyy'),2.99);
+INSERT INTO Customer_rentals VALUES(12458 , 3456987,1, 'rented’, TO_DATE ('05/19/2005', 'mm/dd/yyyy'), TO_DATE ('05/29/1997', 'mm/dd/yyyy'),2.99);
 
-INSERT INTO Customer_rentals VALUES(23458 , 34574895,1, ’inStore’, null, null,null);
+INSERT INTO Customer_rentals VALUES(23458 , 34574895,1, 'inStore’, null, null,null);
 
-INSERT INTO Customer_rentals VALUES(12975 , 34589462,1, ’rented’, TO_DATE ('07/21/2005', 'mm/dd/yyyy'), TO_DATE ('07/28/2005', 'mm/dd/yyyy'),6.99);
+INSERT INTO Customer_rentals VALUES(12975 , 34589462,1, 'rented’, TO_DATE ('07/21/2005', 'mm/dd/yyyy'), TO_DATE ('07/28/2005', 'mm/dd/yyyy'),6.99);
 
 
 
-INSERT INTO Customers VALUES(3456987, ‘Smith’,’John’, ‘ 7032 Lawrence Circle Caldwell, NJ 07006’,’John.Smith@hotmail.com’);
+INSERT INTO Customers VALUES(3456987, ‘Smith’,'John’, ‘ 7032 Lawrence Circle Caldwell, NJ 07006’,'John.Smith @ hotmail.com’);
 
-INSERT INTO Customers VALUES(34574895 , ‘Griffin’,’Peter’, ‘ 7031 Spooner Street, ’PeterGriffin@hotmail.com’);
+INSERT INTO Customers VALUES(34574895 , ‘Griffin’,'Peter’, ‘ 7031 Spooner Street, ’PeterGriffin @ hotmail.com’);
 
-INSERT INTO Customers VALUES(34589462 , ‘Soprano’,’Antony’, ‘ 67 Acacia Ave. Muncie, IN 47302 ’Tonysoprano@hotmail.com’);
+INSERT INTO Customers VALUES(34589462 , ‘Soprano’,'Antony’, ‘ 67 Acacia Ave. Muncie, IN 47302 ’Tonysoprano @ hotmail.com’);
  
-INSERT INTO Rental_Status_Codes VALUES(‘rented’, ’Its not in the store right now’);
+INSERT INTO Rental_Status_Codes VALUES(‘rented’, 'Its not in the store right now’);
 
-INSERT INTO Rental_Status_Codes VALUES(‘inStore’, ’Its in the store right now’);
+INSERT INTO Rental_Status_Codes VALUES(‘inStore’, 'Its in the store right now’);
 
-INSERT INTO Rental_Status_Codes VALUES(‘rented’, ’Its not in the store right now’);
+INSERT INTO Rental_Status_Codes VALUES(‘rented’, 'Its not in the store right now’);
 
 
 
@@ -217,11 +217,11 @@ INSERT INTO Accounts VALUES(2106, 3456987, 5 , ‘Tony Soprano’,null);
 
 
 
-INSERT INTO Payment_Methods VALUES (1,’Cash’);
+INSERT INTO Payment_Methods VALUES (1,'Cash’);
 
 INSERT INTO Payment_Methods VALUES (2,’Amex’);
 
-INSERT INTO Payment_Methods VALUES (5,’Paypal’);
+INSERT INTO Payment_Methods VALUES (5,'Paypal’);
 
 
 
@@ -233,11 +233,11 @@ INSERT INTO Financial_Transactions VALUES(2014791, 2106, 12975, 3 ,2014790,null,
 
 
 
-INSERT INTO Transaction_Types VALUES (1,’Payment’);
+INSERT INTO Transaction_Types VALUES (1,'Payment’);
 
-INSERT INTO Transaction_Types VALUES (2,’Refund’);
+INSERT INTO Transaction_Types VALUES (2,'Refund’);
 
-INSERT INTO Transaction_Types VALUES (3,’Debit’);
+INSERT INTO Transaction_Types VALUES (3,'Debit’);
 
 <h3>9 Different Queries To Test Database</h3>
 Joins:
