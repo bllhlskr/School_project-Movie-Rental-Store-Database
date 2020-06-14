@@ -1,5 +1,5 @@
 # School_project-Movie-Rental-Store-Database
-<h1>Movie Rental Store Database</h1>
+
 <h3> E-R Diagram</h3>
 <img src = 'img/E-R diagram.jpeg'>
 <h3> Schema</h3>
