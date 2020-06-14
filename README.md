@@ -238,9 +238,9 @@ INSERT INTO Transaction_Types VALUES (1,'Payment’);
 INSERT INTO Transaction_Types VALUES (2,'Refund’);
 
 INSERT INTO Transaction_Types VALUES (3,'Debit’);
-
+<br>
 <h3>9 Different Queries To Test Database</h3>
-Joins:
+<h4>Joins:</h4>
 
 SELECT customer_id FROM Customers c, customer_rentals r
 
@@ -260,7 +260,7 @@ WHERE c.item_rental_id = f.item_rental_id; /* if both tables have the same renta
 
 
 
-Nested Queries:
+<h4>Nested Queries:</h4>
 
 DELETE FROM Movies WHERE condition_code IN (SELECT condition_code FROM Condition_Codes WHERE condition_desc = ‘damaged’); /* this query deletes the damaged movies in movie table*/
 
@@ -268,7 +268,7 @@ DELETE FROM Movies WHERE condition_code IN (SELECT condition_code FROM Condition
 UPDATE Movies SET sale_price = sale_price + 2.01 WHERE format_type_id IN (SELECT format_type_id FROM Format_types WHERE formattype_id = ‘DVD’); /* this query increase the price if the movie type is DVD*/
 
 
-Set operations
+<h4>Set operations</h4>
 
 SELECT * FROM Condition_codes
 
@@ -288,7 +288,7 @@ SELECT * FROM Format_Types ; /* This statement returns all the columns together 
 
 
 
-Aggregate Operations:
+<h4>Aggregate Operations:</h4>
 
 SELECT Count(customer_id) FROM Customers ;/* This returns customer number in the customer table.*/
 
